@@ -1,0 +1,285 @@
+.display-photo{
+    width: 100%;
+    height: 85vh;
+}
+.modInput{
+    color: rgb(8, 167, 132);
+    font-weight: 700;
+}
+.modInput input{
+    display: block;
+    margin-top: 5px;
+    /*border-radius: 6px;*/
+    padding: 4px;
+    width: 100%;
+}
+.text-account{
+    font-size: 12px;
+    margin-top: 7%;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(138, 125, 125);
+}
+.closeModal{
+    color: rgb(14, 8, 0);
+    position: absolute;
+    top: 0%;
+    right: 2%;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 4px;
+    border-bottom: 2px dotted rgb(168, 168, 192);
+}
+.closeModal:hover{
+    color:rgba(229, 238, 238, 0.596);
+}
+.form-page input{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 2.5%;
+    width: 35%;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid rgb(201, 163, 149);
+    font-size: 18px;
+}
+.form-page input:first-child{
+    text-transform: capitalize;
+}
+.form-page input:hover{
+    background-color: rgba(187, 211, 188, 0.151);
+}
+.form-page button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 3%;
+    width: 20%;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 700;
+}
+.errorForm{
+    color: red;
+    font-size: 13px;
+    font-weight: 700;
+}
+.welcomeUser{
+    text-align: center;
+}
+.material-symbols-outlined{
+    margin-top: 15px;
+    color: black;
+}
+.material-symbols-sharp{
+    position: absolute;
+    top: 35%;
+    right: 18%;
+}
+.ji{
+    color: red;
+    border: none;
+}
+.showPass{
+    position: absolute;
+    bottom: 47%;
+    right: 11%;
+    cursor: pointer;
+}
+.full-card{
+    margin: 0 auto;
+    float: left;
+    padding: 15px;
+    height: auto;
+    font-family: 'Kanit', sans-serif;
+  }
+  .cardImg{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  .cardImg:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    transition: transform .5s ease-in-out;
+  }
+  .b-card{
+    color: rgb(48, 24, 5);
+  }
+  .cart-button{
+    width: 100%;
+    border-radius: 0;
+    margin-top: 8%;
+    font-size: 19px;
+  }
+  .love-photo{
+    width: 5%;
+    margin-bottom: 10%;
+    margin-left: 93%;
+    cursor: pointer;
+  }
+  .gift-lists{
+    list-style-type: none;
+    font-weight: 500;
+  }
+  .gift-lists li{
+    margin-left: 4%;
+    padding: 5%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+  .gift-lists li:hover{
+    background-color: rgba(247, 241, 241, 0.822);
+  }
+ .under-header img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+ }
+ .under-header{
+    margin-top: 5%;
+    margin-left: 3%;
+    padding-bottom: 4%;
+    cursor: pointer;
+ }
+ .bold{
+    padding-left: 5px;
+    margin-top: 3px;
+    opacity: 0.6;
+ }
+ .under-header span{
+    padding-left: 5px;
+    /*font-family: 'Kanit', sans-serif;*/
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 8px ;
+ }
+.jut{
+    width: 66%;
+    margin: 8% auto;
+    height: auto;
+}
+.containerElement{
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 4.5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.more-to-show{
+    color: rgb(230, 51, 51);
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 1%;
+    margin-left: 45%;
+}
+.redArrow{
+    width: 15%;
+}
+.warning{
+    color: red;
+    font-size: 88px;
+    position: absolute;
+    top: 1%;
+}
+.cart-bag{
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.cardImg-cart{
+    width: 26%;
+}
+.card-full{
+    width: 50%;
+    border: 1px solid rgb(243, 234, 234);
+    border-radius: 8px;
+    display: flex;
+    padding: 8px;
+}
+.description-cart{
+   padding: 10px;
+}
+.price-cart{
+    padding-top: 35px;
+    padding-left: 380px;
+}
+.buttons-full{
+    margin-top: 11%;
+}
+.btn-cart{
+    color: rgb(21, 84, 179);
+    font-weight: 900;
+}
+.btn-quantity{
+    margin-left: 1%;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 14px;
+}
+.btn-cart:last-child{
+    margin-left: 4px;
+}
+.delete-cart{
+    width: 5%;
+    margin-left: 86%;
+    cursor: pointer;
+}
+.delete-cart:hover{
+    background-color: rgba(150, 126, 126, 0.582);
+    padding: 2px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+.opaq{
+    border: none;
+    background-color: white;
+    margin-left: 4%;
+}
+.total-cart{
+    width: 30%;
+    border: 1px solid rgb(243, 234, 234);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 60.5%;
+}
+.grand-total{
+    border-bottom: 1px solid rgb(216, 183, 183);
+}
+.grand-total>h3{
+    margin-left: 66%;
+}
+.btnCheck{
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+.books-footer{
+    width: 100%;
+    position: absolute;
+    top: 280%;
+    
+ /*   top: 280%;*/
+}
+
+@media screen and (max-width: 768px) {
+    .showPass{
+        position: absolute;
+        top: 48%;
+    }
+    .form-page input{
+        width: 90%;
+        margin-top: 18%;
+    }
+    .form-page button{
+        width: 60%;
+        margin-top: 18%;
+    }
+  }

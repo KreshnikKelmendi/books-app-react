@@ -1,0 +1,160 @@
+.navigation {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    font-size: 17px;
+    box-shadow: 0 0px 5px 0px rgba(54, 58, 53, 0.23);
+  }
+  .brand-name {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 1rem;
+  }
+  .navigation-menu {
+    margin-left: auto;
+  }
+  .navigation-menu ul {
+    display: flex;
+    padding: 0;
+  }
+  .navigation-menu li {
+    list-style-type: none;
+    margin: 0 1.5rem;
+  }
+  .navigation-menu li:last-child{
+    margin: 0 3.9rem;
+  }
+  .navigation-menu li a {
+    text-decoration: none;
+    width: 100%;
+    color:black;
+    cursor: pointer;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.5rem 0;
+  }
+  .navigation-menu li a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 40%;
+    background-color: rgb(248, 87, 59);
+    transform: translateX(-105%);
+    transition: transform 0.5s ease-in-out;
+  }
+  .navigation-menu li a:hover::before{
+    transform: translateX(0);
+  }
+  .hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 10%;
+    background-color: rgb(18, 152, 175);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  .hamburger:hover {
+    background-color: #4d65c7;
+  }
+  .create-account{
+    padding: 6px;
+    width: 90%;
+    margin-left: 5.5%;
+    border-radius: 0;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .textAccount{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(14, 0, 0);
+    cursor: pointer;
+  }
+  .cart-text{
+    text-decoration: none;
+  }
+  .textAccount:hover{
+    font-size: 21px;
+    color: brown;
+  }
+  .kio{
+    text-decoration: none;
+    color: black;
+  }
+  .cartpng{
+    width:35px;
+  }
+  .length-cart{
+    position: absolute;
+    top: 25%;
+    right: 4%;
+    background-color: rgb(214, 42, 12);
+    padding: px;
+    color: white;
+    width: 22px;
+    border-radius: 25px;
+    font-weight: 500;
+    text-align: center;
+  } 
+
+
+  @media screen and (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    .navigation-menu ul {
+        display: none;
+      }
+      .navigation-menu ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background-color:white;
+        border-top: 1px solid black;
+        margin-top: 10%;
+        z-index: 2;
+      }
+      .navigation-menu li {
+        text-align: center;
+        margin: 0;
+      }
+      .navigation-menu li a {
+        color: black;
+        width: 100%;
+        padding: 1.5rem 0;
+      }
+      .navigation-menu li:hover {
+        background-color: rgb(223, 177, 177);
+      }
+      .navigation-menu ul {
+        display: none;
+      }
+      .navigation-menu.expanded ul {
+        display: block;
+      }
+      .length-cart{
+        position: absolute;
+        top: 89%;
+        right:44%;
+      }
+    }
